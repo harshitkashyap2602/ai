@@ -1,1 +1,0 @@
-import"./hoisted.SqnP2AX7.js";function t(){const e=document.getElementById("discover-more");e&&window.addEventListener("scroll",()=>{window.scrollY>50?e.classList.add("scale-0"):e.classList.remove("scale-0")})}document.addEventListener("astro:before-swap",()=>{window.removeEventListener("scroll",t)},{once:!0});t();document.addEventListener("astro:after-swap",t);
